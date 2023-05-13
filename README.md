@@ -41,6 +41,6 @@ Installation de kivymd dans le repertoire du projet:
 
 Excuter le programme comme dans python simplement:
 
-    py text.py
+    py test.py
 
 
