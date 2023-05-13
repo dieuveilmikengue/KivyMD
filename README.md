@@ -3,6 +3,8 @@
 
 ## Installation des modules necessaires
 
+Rassurez vous que python est déjà installé dans votre ordinateur
+
 ### Mise a jour des pip:
 
 Environnement virtuel
@@ -13,19 +15,32 @@ Mise a jour du module pip
 
     python.exe -m pip install --upgrade pip
 
-Environnement virtuel dans le repertoire du projet
+Créer un dossier projet "projet" par exemple et placer vous dans le repertoire "projet"
 
-    python -m virtualenv kivy_venv
+    C:\Users\.......\projet>
+
+### Excuter les commandes ci-après:
+
+Créer un environnement virtuel dans le repertoire du projet
+
+    python -m virtualenv nomDuProjet
 
 Activer l'environnement pour l'excution du programme:
 
-    kivy_venv\Scripts\activate
+    nomDuProjet\Scripts\activate
 
 Installation de kivy dans le repertoire du projet:
 
     pip install kivy[base] kivy_examples --pre --extra-index-url https://kivy.org/downloads/simple/
 
-Installation de kivy dans le repertoire du projet:
+Installation de kivymd dans le repertoire du projet:
 
-    pip install kivy[base] kivy_examples --pre --extra-index-url https://kivy.org/downloads/simple/
+    pip install kivymd
+
+### Créer un fichier python: "test.py" par exemple
+
+Excuter le programme comme dans python simplement:
+
+    py text.py
+
 
