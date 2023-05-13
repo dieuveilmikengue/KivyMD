@@ -1,5 +1,5 @@
 
-# Creation Application avec KivyMD
+# Creation d'une Application avec KivyMD
 
 ## Installation des modules necessaires
 
